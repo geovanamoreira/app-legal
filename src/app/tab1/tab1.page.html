@@ -1,17 +1,79 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar class="ion-text-center" color="dark">
     <ion-title>
-      Tab 1
+      Animes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-list>
+    <ion-item lines="full" routerLink="/sgk">
+      <ion-thumbnail slot="start">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhF3A5gQYPGob8lZd8n5fSSCqNv8n4zTGMN2LLzYKJbxsbZ_RR_142pd_0dOAyVHMuK-5nOQI1JJnWSffm1GW1BWKgUbuPDli33RwZnC2BHbahUTkyJLNWz3ymXvsdUcJ8gQUG0w8cG_KhsLrfmQXOz7ORXmHolWIM6PUfREu8DtFiSRgxAZcSp1DAA=s16000">
+      </ion-thumbnail>
+
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1>Shingeki no Kyojin</h1>
+          <p>2013-2022</p>
+          <ion-badge color="light">Ação</ion-badge>
+          <ion-badge color="light">Drama</ion-badge>
+          <ion-badge color="light">Fantasia</ion-badge>
+          <ion-badge color="light">Mistério</ion-badge>
+        </div>
+      </ion-label>
+
+      <ion-chip color="success" outline>
+        <ion-label>4.8</ion-label>
+      </ion-chip>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item lines="full" routerLink="/hnk">
+      <ion-thumbnail slot="start">
+        <img src="https://animefire.net/img/animes/jibaku-shounen-hanako-kun.webp">
+      </ion-thumbnail>
+
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1>Jibaku Shounen Hanako-kun</h1>
+          <p>2020</p>
+          <ion-badge color="light">Comédia</ion-badge>
+          <ion-badge color="light">Romance</ion-badge>
+          <ion-badge color="light">Shounen</ion-badge>
+          <ion-badge color="light">Sobrenatural</ion-badge>
+        </div>
+      </ion-label>
+
+      <ion-chip color="success" outline>
+        <ion-label>4.3</ion-label>
+      </ion-chip>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item lines="full" routerLink="/sailor">
+      <ion-thumbnail slot="start">
+        <img src="https://br.web.img2.acsta.net/pictures/18/07/17/21/23/3351719.jpg">
+      </ion-thumbnail>
+
+      <ion-label class="ion-text-wrap">
+        <div>
+          <h1>Sailor Moon</h1>
+          <p>1992-1993</p>
+          <ion-badge color="light">Magia</ion-badge>
+          <ion-badge color="light">Romance</ion-badge>
+          <ion-badge color="light">Shoujo</ion-badge>
+        </div>
+      </ion-label>
+
+      <ion-chip color="success" outline>
+        <ion-label>4.0</ion-label>
+      </ion-chip>
+    </ion-item>
+  </ion-list>
+
 </ion-content>
